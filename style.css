@@ -97,3 +97,7 @@ body {
 .contentDisplay img {
   height: 200px;
 }
+
+.activated {
+  background-color: #5f9ea0;
+}
