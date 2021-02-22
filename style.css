@@ -1,0 +1,99 @@
+body {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.info {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.labsNav {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.labsNavItem {
+  height: 100%;
+  width: 10%;
+  border-radius: 5px;
+  border: solid 2px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navigationLab {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  align-items: center;
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.navigationLab::-webkit-scrollbar {
+  width: 0;
+}
+
+.navItem {
+  width: 95%;
+  padding: 10px 5% 10px 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: solid 2px black;
+  transition: background-color ease-in-out 300ms;
+  cursor: pointer;
+}
+
+.subNav {
+  width: 90%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.navItem:first-child {
+  margin-bottom: 10px;
+}
+
+.navItem:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.labsNavItem:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.contentDisplay {
+  height: 420px;
+  width: 77.5%;
+  border-radius: 5px;
+  border: solid 2px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentDisplay img {
+  height: 200px;
+}
